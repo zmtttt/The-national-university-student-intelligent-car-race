@@ -6,6 +6,7 @@ import copy
 import time
 import math
 threshold=120
+#1
 def del_color(image):
     color = [
         ([15, 50, 50], [27, 255, 255])  # 黄色范围~这个是我自己试验的范围，可根据实际情况自行调整~注意：数值按[b,g,r]排布
@@ -17,7 +18,7 @@ def del_color(image):
         lower = np.array(lower, dtype="uint8")  # 颜色下限
         upper = np.array(upper, dtype="uint8")  # 颜色上限
 
-        # 根据阈值找到对应颜�?
+        # 根据阈值找到对应颜色
 
         mask = cv2.inRange(image, lower, upper)
         output = cv2.bitwise_and(image, image, mask=mask)
