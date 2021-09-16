@@ -33,6 +33,7 @@ class Logger:
         path = "{}/result.json".format(self.result_dir)
         with open(path, 'w') as fp:
             json.dump(self.map.copy(), fp)
+            
         pass
 
     def log(self, axis):
