@@ -32,6 +32,7 @@ class Logger:
             return
         self.stopped_ = True
         cart.stop()
+        
         path = "{}/result.json".format(self.result_dir)
         with open(path, 'w') as fp:
             json.dump(self.map.copy(), fp)
