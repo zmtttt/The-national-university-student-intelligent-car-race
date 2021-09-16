@@ -27,11 +27,7 @@ class Camera:
             if self.stopped:
                 return
             (self.grabbed, self.frame) = self.stream.read()
-            # time.sleep(1)
-            # if self.src == 0:
-            #     path = "images/{}.png".format(count);
-            #     count = count + 1;
-            #     cv2.imwrite(path, self.frame);
+            # time.sleep(1
 
 
     def read(self):
