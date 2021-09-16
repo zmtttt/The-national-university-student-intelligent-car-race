@@ -127,13 +127,3 @@ if __name__ == "__main__":
     #c.move([0, 0, 0, 0])
 
     test()
-    # # testmove()
-    # # test();
-    # #     turntest()
-    # c = Cart()
-    #while True:
-         # c.move([5,5,5,5])
-         #c.move([20, 20, 20, 20])
-         #time.sleep(3)
-         #c.move([0, 0, 0, 0])
-         #time.sleep(3)
