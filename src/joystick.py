@@ -32,3 +32,4 @@ class JoyStick:
         if number == 1:
             fvalue = value / 32767
             return fvalue;
+        
