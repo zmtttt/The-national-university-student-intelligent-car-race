@@ -92,7 +92,6 @@ def apply_saturation(img):
     img += gray
     return img
 
-
 def apply_contrast(img):
     low, high, prob = [0.5, 1.5, 0.5]
     if np.random.uniform(0., 1.) < prob:
