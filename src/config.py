@@ -50,8 +50,3 @@ task = {
 	"threshold":0.6,
 	"label_list":mission_label_list
 }
-
-
-
-# sign_threshold = 0.3;
-# task_threshold = 0.4;
