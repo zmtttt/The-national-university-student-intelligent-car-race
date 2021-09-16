@@ -27,7 +27,6 @@ def light_index_to_global(light_index):
 def blue_index_to_global(blue_index):
     return blue_index + 11
 
-
 def yellow_index_to_global(yellow_index):
     if yellow_index == 0:
         return 4
