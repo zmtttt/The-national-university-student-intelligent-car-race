@@ -8,3 +8,6 @@
 
 巡线数据集已共享在aistudio：https://aistudio.baidu.com/aistudio/datasetdetail/108767。
 
+小车运行主程序在src内
+------
+
