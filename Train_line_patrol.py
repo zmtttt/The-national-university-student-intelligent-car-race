@@ -26,7 +26,6 @@ def cnn_model(image):
     temp = fluid.layers.conv2d(input=temp, num_filters=64, filter_size=3, stride=2, act='relu')
     temp = fluid.layers.conv2d(input=temp, num_filters=128, filter_size=3, stride=1, act='relu')
     # temp = fluid.layers.conv2d(input=temp, num_filters=64, filter_size=3, stride=1, act='relu')
-    # temp = fluid.layers.conv2d(input=temp, num_filters=64, filter_size=3, stride=1, act='relu')
     temp = fluid.layers.dropout(temp, dropout_prob=0.1)
     fc1 = fluid.layers.fc(input=temp, size=128, act="leaky_relu")
     fc2 = fluid.layers.fc(input=fc1, size=32, act="leaky_relu")
