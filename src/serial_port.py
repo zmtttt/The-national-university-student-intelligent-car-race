@@ -25,3 +25,4 @@ class Serial:
 		return self.res
 
 serial_connection = Serial()
+
