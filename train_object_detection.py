@@ -195,7 +195,6 @@ class sampler:
         self.min_jaccard_overlap = min_jaccard_overlap
         self.max_jaccard_overlap = max_jaccard_overlap
 
-
 class bbox:
     def __init__(self, xmin, ymin, xmax, ymax):
         self.xmin = xmin
