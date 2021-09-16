@@ -10,4 +10,4 @@
 
 小车运行主程序在src内
 ------
-
+使用control_collect_line_data.py或nocontrol_collect_line_data.py请放在src内运行
