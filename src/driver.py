@@ -32,6 +32,7 @@ class Driver:
 
     def set_Kx(self, Kx):
         self.cart.Kx=Kx
+        
 
     def get_min_speed(self):
         return self.cart.min_speed
